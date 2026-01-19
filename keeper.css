@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    
+}
+header img{
+    width: 50%;
+}
+.call{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-right: 30px;
+}
+.call h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5px;
+    font-weight: 750;
+    color: #7c1513;
+}
+h3 span{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+.call h2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+nav{
+    background: url(menu_bg.gif);
+    background-size: contain;
+    width: 100%;
+    height: 50px;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    letter-spacing: 1px;
+    padding-right: 25px;
+}
+ul li a:hover{
+    background-color: gray;
+    padding: 16px;
+}
+main .posters{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.posters .poster{
+    width: 53%;
+}
+.inform{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    background: url(form_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Questions{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.Questions h1{
+    background-color:#9b0b12;
+    color: white;
+    padding-left: 5px;
+}
+.Questions h4{
+   font-size: 25px;
+   padding-right: 50px;
+   letter-spacing: 0.5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Questions h4 B{
+    font-size: 35px;
+    color: #113452;
+}
+.inform p{
+    font-size: 21px;
+    display: flex;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    padding-top: 10px;
+}
+.info input{
+    width: 200px;
+    height: 20px;
+}
+.info label{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name img{
+    transform: rotate(10deg);
+    width: 200px;
+    padding-right: 50px;
+}
+.inform textarea{
+    resize: none;
+    width: 85%;
+    margin: auto;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.privacy{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.privacy p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+.privacy button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #9d0707;
+    color: white;
+    border: none;
+    width: 50%;
+}
