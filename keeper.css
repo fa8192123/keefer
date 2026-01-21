@@ -315,18 +315,18 @@ main .posters{
     display: flex;
     width: 100%;
     padding-top: 20px;
-    gap: 20px;
+    gap: 5px;
 }
 .one{
     display: flex;
     flex-direction: column;
     width: 25%;
-    padding: 20px;
-
+    padding-left: 20px;
+    
 }
 .one h2{
     color: #494949;
-    font-size: 23px;
+    font-size: 28px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .one h2:nth-child(3){
@@ -382,7 +382,7 @@ main .posters{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 70px;
+    padding: 90px;
 }
 .bottom1 h4{
     font-family: Arial, Helvetica, sans-serif;
@@ -390,9 +390,9 @@ main .posters{
     color: #c5c5c5;
 }
 .mid{
-    width: 55%;
+    width: 50%;
     line-height: 30px;
-    padding: 20px;
+    padding-left: 20px;
 }
 .mid h1{
     font-size: 30px;
@@ -404,5 +404,68 @@ main .posters{
     color: #888783;
 }
 .two{
-    width: 20%;
+    width: 25%;
+    padding-right: 20px;
+}
+.sidetwo1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 40px 20px;
+    gap: 5px;
+    
+}
+.sidetwo1 h2{
+    color: #494949;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.sidetwo1 span{
+    color: #7c1513;
+}
+.sidetwo1 p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.sidetwo1 .bullets{
+    border-top: 3px solid rgba(87, 85, 85, 0.943);
+    width: 90%;
+    padding: 0;
+    align-self: flex-start;
+}
+.sidetwo1 .bullets button{
+    margin-left: 30px;
+    box-shadow: -6px 0 10px rgba(0, 0, 0, 0.402), 6px 0 10px rgba(0, 0, 0, 0.402);
+}
+.sidetwo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sidetwo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.icons{
+    margin-bottom: 80px;
+    display: flex;
+    gap: 13px;
+}
+#line{
+    width: 70%;
+    height: 3px;
+    background-color: #474747 ;
+}
+footer{
+    background-image: url(ft_bg.png);
+    background-size: contain;
+    height: 35px;
 }
