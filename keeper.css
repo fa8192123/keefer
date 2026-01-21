@@ -4,7 +4,7 @@
 }
 header{
     display: flex;
-    
+    align-items: center;
 }
 header img{
     width: 50%;
@@ -125,6 +125,7 @@ main .posters{
     align-items: end;
     gap: 10px;
     padding-top: 10px;
+    padding-left: 30px;
 }
 .info input{
     width: 200px;
@@ -469,3 +470,58 @@ footer{
     background-size: contain;
     height: 35px;
 }
+@media (max-width: 992px) {
+  .call h3 {
+    font-size: 22px;
+  }
+  .call h2 {
+    font-size: 54px;
+  }
+  .call p {
+    font-size: 16px;
+  }
+  ul li a {
+    padding-right: 15px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 5px;
+    }
+    header img {
+        width: 80%;
+    }
+    .call{
+        padding: 0;
+        align-items: center;
+    }
+    .call h3 {
+        font-size: 18px;
+    }
+    .call h2 {
+        font-size: 45px;
+    }
+    .call p {
+        font-size: 13px;
+    }
+    ul li a {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .call h3{
+        font-size: 14px;
+    }
+    .call h2{
+        font-size: 37px;
+    }
+    .call p{
+        font-size: 10px;
+    }
+    ul li a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
