@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
 }
-header img{
+
+header img {
     width: 50%;
 }
-.call{
+
+.call {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -17,7 +20,8 @@ header img{
     justify-content: center;
     padding-right: 30px;
 }
-.call h3{
+
+.call h3 {
     display: flex;
     flex-direction: column;
     font-size: 25px;
@@ -27,59 +31,75 @@ header img{
     font-weight: 750;
     color: #7c1513;
 }
-h3 span{
+
+h3 span {
     background-color: black;
     height: 3px;
     width: 100%;
 }
-.call h2{
+
+.call h2 {
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.call p{
+
+.call p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
     font-weight: 600;
 }
-nav{
+
+nav {
     background: url(menu_bg.gif);
     background-size: contain;
     width: 100%;
     height: 50px;
 }
-nav ul{
+
+nav ul {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 20px;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-ul li a{
+
+ul img {
+    display: none;
+    height: 100%;
+}
+
+ul li a {
     text-decoration: none;
     color: white;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     padding-right: 25px;
 }
-ul li a:hover{
+
+ul li a:hover {
     background-color: gray;
     padding: 16px;
 }
-main .posters{
+
+main .posters {
     width: 100%;
     display: flex;
     padding-top: 40px;
     justify-content: space-evenly;
 }
-.posters .poster{
+
+.posters .poster {
     width: 50%;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
 }
-.inform{
+
+.inform {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -88,38 +108,45 @@ main .posters{
     background-repeat: no-repeat;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
 }
-.Questions{
+
+.Questions {
     display: flex;
     align-items: start;
     justify-content: space-between;
 }
-.Questions h1{
-    background-color:#9b0b12;
+
+.Questions h1 {
+    background-color: #9b0b12;
     color: white;
     padding-left: 5px;
 }
-.Questions h4{
-   font-size: 25px;
-   padding-right: 50px;
-   letter-spacing: 0.5px;
-   font-family: Arial, Helvetica, sans-serif;
+
+.Questions h4 {
+    font-size: 25px;
+    padding-right: 50px;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.Questions h4 B{
+
+.Questions h4 B {
     font-size: 35px;
     color: #113452;
 }
-.inform p{
-    font-size: 20px;
-    padding-left: 25px;
+
+.inform p {
+    font-size: 19px;
+    padding-left: 23px;
     padding-right: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.name{
+
+.name {
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -127,21 +154,25 @@ main .posters{
     padding-top: 10px;
     padding-left: 30px;
 }
-.info input{
+
+.info input {
     width: 200px;
     height: 20px;
 }
-.info label{
+
+.info label {
     font-size: 15px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
-.name img{
+
+.name img {
     transform: rotate(10deg);
     width: 200px;
     padding-right: 50px;
 }
-.inform textarea{
+
+.inform textarea {
     resize: none;
     width: 85%;
     margin: auto;
@@ -152,18 +183,21 @@ main .posters{
     padding-top: 5px;
     font-weight: 700;
 }
-.privacy{
+
+.privacy {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
     gap: 10px;
 }
-.privacy p{
+
+.privacy p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: gray;
 }
-.privacy button{
+
+.privacy button {
     font-size: 20px;
     padding: 10px;
     background-color: #9d0707;
@@ -171,13 +205,15 @@ main .posters{
     border: none;
     width: 50%;
 }
-.containor{
+
+.containor {
     width: 100%;
     display: flex;
-    padding-top: 60px;
+    margin-top: 60px;
     margin-bottom: 50px;
 }
-.left{
+
+.left {
     width: 30%;
     padding-left: 30px;
     padding-top: 20px;
@@ -185,113 +221,138 @@ main .posters{
     display: flex;
     flex-direction: column;
 }
-.left h2{
+
+.left h2 {
     color: #494949;
     padding-bottom: 10px;
     font-size: 25px;
 }
-.left h2 span{
+
+.left h2 span {
     color: #7c1513;
 }
-.left h4{
+
+.left h4 {
     color: #9b0b12;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
     font-size: 18px;
 }
-.boxex{
+
+.boxex {
     display: flex;
     align-items: start;
     gap: 20px;
 }
-.boxex p{
+
+.boxex p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.notpad{
+
+.notpad {
     width: 200px;
 }
-.center{
+
+.center {
     width: 40%;
     border-left: 1px solid rgba(128, 128, 128, 0.336);
     border-right: 1px solid rgba(128, 128, 128, 0.336);
     display: flex;
     flex-direction: column;
 }
-.top{
+
+.top {
     display: flex;
     padding-left: 30px;
     padding-bottom: 30px;
 }
-.top h2{
+
+.top h2 {
     color: #494949;
     font-size: 25px;
 }
-.top h2 span{
-   color: #7c1513; 
+
+.top h2 span {
+    color: #7c1513;
 }
-.top p{
+
+.top p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 5px;
 }
-.pic1{
+
+.pic1 {
     width: 200px;
     display: flex;
     align-items: center;
     padding-left: 25px;
 }
-.bottom{
+
+.bottom {
     display: flex;
     padding-left: 30px;
     border-top: 1px solid rgba(128, 128, 128, 0.336);
     padding-top: 50px;
 }
-.bottom h2{
-     color: #494949;
+
+.bottom h2 {
+    color: #494949;
     font-size: 25px;
 }
-.bottom h2 span{
-    color: #7c1513; 
+
+.bottom h2 span {
+    color: #7c1513;
 }
-.bottom p{
+
+.bottom p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 5px;
 }
-.pic2{
+
+.pic2 {
     width: 170px;
     display: flex;
     align-items: center;
     padding-left: 25px;
 }
-.right{
+
+.right {
     width: 30%;
-     display: flex;
+    display: flex;
     flex-direction: column;
     padding-left: 30px;
 }
-.images{
+
+.images {
     display: flex;
     align-items: center;
     padding-left: 25px;
     gap: 20px;
     padding-top: 20px;
 }
-.right h2{
-     color: #494949;
+.images img{
+    height: 100px;
+}
+.right h2 {
+    color: #494949;
     font-size: 25px;
     padding-top: 10px;
 }
-.right h2 span{
+
+.right h2 span {
     color: #7c1513;
 }
-.right p{
+
+.right p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 10px;
 }
-.bullets{
+
+.bullets {
     display: flex;
     justify-content: center;
     border-top: 1px solid gray;
@@ -299,9 +360,10 @@ main .posters{
     padding-left: 40px;
     margin-top: 10px;
     align-self: flex-end;
-    
+
 }
-.bullets button{
+
+.bullets button {
     height: 30px;
     width: 120px;
     background-color: #9d0707;
@@ -309,53 +371,64 @@ main .posters{
     border: none;
     box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.402), 4px 4px 10px rgba(0, 0, 0, 0.402);
 }
-.shadow{
+
+.shadow {
     width: 100%;
 }
-.section1{
+
+.section1 {
     display: flex;
     width: 100%;
     padding-top: 20px;
     gap: 5px;
 }
-.one{
+
+.one {
     display: flex;
     flex-direction: column;
     width: 25%;
     padding-left: 20px;
-    
+
 }
-.one h2{
+
+.one h2 {
     color: #494949;
     font-size: 28px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.one h2:nth-child(3){
+
+.one h2:nth-child(3) {
     padding-top: 30px;
 }
-.one h2 span{
+
+.one h2 span {
     color: #7c1513;
 }
-.column{
+
+.column {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
     padding-top: 20px;
 }
-.top1{
+
+.top1 {
     display: flex;
     background-color: #838383;
 }
-.boxside{
+
+.boxside {
     width: 10px;
     height: 70px;
 }
-.top2{
+
+.top2 {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.top2 p{
+
+.top2 p {
     font-size: 21px;
     padding-top: 10px;
     padding-left: 10px;
@@ -363,11 +436,13 @@ main .posters{
     color: white;
     font-weight: 700;
 }
-.buttons{
+
+.buttons {
     padding: 5px 11px 5px 0;
     align-self: flex-end;
 }
-.buttons button{
+
+.buttons button {
     height: 20px;
     color: white;
     background-color: #838383;
@@ -376,152 +451,523 @@ main .posters{
     font-size: 15px;
     font-weight: 600;
 }
-.buttons img{
+
+.buttons img {
     width: 10px;
 }
-.bottom1{
+
+.bottom1 {
     display: flex;
     flex-direction: column;
     gap: 5px;
     padding: 90px;
 }
-.bottom1 h4{
+
+.bottom1 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: #c5c5c5;
 }
-.mid{
+
+.mid {
     width: 50%;
     line-height: 30px;
     padding-left: 20px;
 }
-.mid h1{
+
+.mid h1 {
     font-size: 30px;
     color: #474747;
 }
-.mid p{
+
+.mid p {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 15px;
     color: #888783;
 }
-.two{
+
+.two {
     width: 25%;
     padding-right: 20px;
 }
-.sidetwo1{
+
+.sidetwo1 {
     display: flex;
     flex-direction: column;
     padding: 0 20px 40px 20px;
     gap: 5px;
-    
+
 }
-.sidetwo1 h2{
+
+.sidetwo1 h2 {
     color: #494949;
     font-size: 28px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 25px;
     padding-left: 10px;
 }
-.sidetwo1 span{
+
+.sidetwo1 span {
     color: #7c1513;
 }
-.sidetwo1 p{
+
+.sidetwo1 p {
     font-size: 20px;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
 }
-.sidetwo1 .bullets{
+
+.sidetwo1 .bullets {
     border-top: 3px solid rgba(87, 85, 85, 0.943);
     width: 90%;
     padding: 0;
     align-self: flex-start;
 }
-.sidetwo1 .bullets button{
+
+.sidetwo1 .bullets button {
     margin-left: 30px;
     box-shadow: -6px 0 10px rgba(0, 0, 0, 0.402), 6px 0 10px rgba(0, 0, 0, 0.402);
 }
-.sidetwo2{
+
+.sidetwo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.sidetwo3{
+
+.sidetwo3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
-.icons{
+
+.icons {
     margin-bottom: 80px;
     display: flex;
     gap: 13px;
 }
-#line{
+
+#line {
     width: 70%;
     height: 3px;
-    background-color: #474747 ;
+    background-color: #474747;
 }
-footer{
+
+footer {
     background-image: url(ft_bg.png);
     background-size: contain;
     height: 35px;
 }
-@media (max-width: 992px) {
-  .call h3 {
-    font-size: 22px;
-  }
-  .call h2 {
-    font-size: 54px;
-  }
-  .call p {
-    font-size: 16px;
-  }
-  ul li a {
-    padding-right: 15px;
-    font-size: 14px;
-  }
+
+@media (max-width: 1216px) {
+    .inform input {
+        width: 150px;
+        height: 17px;
+    }
+
+    .info label {
+        font-size: 13px;
+    }
+
+    .name img {
+        width: 180px;
+    }
+
+    .inform textarea {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .privacy p {
+        font-size: 16px;
+    }
+
+    .privacy button {
+        font-size: 18px;
+        width: 49%;
+    }
 }
+
+@media (max-width: 1165px) {
+    .Questions h1 {
+        font-size: 30px;
+    }
+
+    .Questions h4 {
+        font-size: 18px;
+    }
+
+    .Questions h4 B {
+        font-size: 23px;
+    }
+
+    .inform p {
+        font-size: 16px;
+    }
+
+    .info input {
+        width: 120px;
+        height: 13px;
+    }
+
+    .info label {
+        font-size: 11px;
+    }
+
+    .name img {
+        width: 160px;
+        padding-right: 75px;
+    }
+
+    .inform textarea {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .privacy p {
+        font-size: 14px;
+    }
+
+    .privacy button {
+        font-size: 16px;
+        width: 47%;
+    }
+    .right h2{
+        font-size: 22px;
+    }
+    .right p{
+        font-size: 15px;
+    }
+    .images{
+        gap: 15px;
+        padding-left: 20px;
+    }
+    .images img{
+        height: 80px;
+    }
+    .top h2{
+        font-size: 23px;
+    }
+    .top p{
+        font-size: 15px;
+    }
+    .pic1{
+        width: 150px;
+    }
+    .bottom h2{
+        font-size: 23px;
+    }
+    .bottom p{
+        font-size: 15px;
+    }
+    .pic2{
+        width: 150px;
+    }
+    .left h2{
+        font-size: 23px;
+    }
+    .left h4{
+        font-size: 16px;
+    }
+    .boxex p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .call h3 {
+        font-size: 22px;
+    }
+
+    .call h2 {
+        font-size: 54px;
+    }
+
+    .call p {
+        font-size: 16px;
+    }
+
+    ul li a {
+        padding-right: 15px;
+        font-size: 14px;
+    }
+
+    .posters .poster {
+        width: 90%;
+    }
+
+    main .posters {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .inform {
+        width: 90%;
+    }
+
+    .Questions h1 {
+        font-size: 40px;
+    }
+
+    .Questions h4 {
+        font-size: 30px;
+    }
+
+    .Questions h4 B {
+        font-size: 35px;
+    }
+
+    .inform p {
+        font-size: 26px;
+    }
+
+    .info input {
+        width: 200px;
+        height: 25px;
+    }
+
+    .info label {
+        font-size: 20px;
+    }
+
+    .name img {
+        width: 250px;
+        transform: rotate(9deg);
+        padding-right: 100px;
+    }
+
+    .inform textarea {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .privacy {
+        padding-top: 10px;
+        gap: 25px;
+    }
+
+    .privacy p {
+        font-size: 25px;
+    }
+
+    .privacy button {
+        font-size: 27px;
+        width: 48%;
+    }
+    .left{
+        width: 50%;
+    }
+    .center{
+        width: 60%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         gap: 5px;
     }
+
     header img {
         width: 80%;
     }
-    .call{
+
+    .call {
         padding: 0;
         align-items: center;
     }
+
     .call h3 {
         font-size: 18px;
     }
+
     .call h2 {
         font-size: 45px;
     }
+
     .call p {
         font-size: 13px;
     }
+
+    nav {
+        height: 30px;
+    }
+
+    ul img {
+        display: block;
+    }
+
     ul li a {
-        font-size: 12px;
-        padding-right: 10px;
+        display: none;
+    }
+
+    .Questions h1 {
+        font-size: 35px;
+    }
+
+    .Questions h4 {
+        font-size: 25px;
+    }
+
+    .Questions h4 B {
+        font-size: 30px;
+    }
+
+    .inform p {
+        font-size: 22px;
+    }
+
+    .info input {
+        width: 150px;
+        height: 22px;
+    }
+
+    .info label {
+        font-size: 18px;
+    }
+
+    .name img {
+        width: 220px;
+        transform: rotate(8deg);
+        padding-right: 85px;
+    }
+
+    .inform textarea {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .privacy {
+        padding-top: 10px;
+        gap: 25px;
+    }
+
+    .privacy p {
+        font-size: 20px;
+    }
+
+    .privacy button {
+        font-size: 22px;
+        width: 48%;
     }
 }
+
+@media (max-width: 684px) {
+    .Questions h1 {
+        font-size: 30px;
+    }
+
+    .Questions h4 {
+        font-size: 23px;
+    }
+
+    .Questions h4 B {
+        font-size: 28px;
+    }
+
+    .inform p {
+        font-size: 19px;
+    }
+
+    .info input {
+        width: 120px;
+        height: 17px;
+    }
+
+    .info label {
+        font-size: 15px;
+    }
+
+    .name img {
+        width: 200px;
+        transform: rotate(7deg);
+        padding-right: 80px;
+    }
+
+    .inform textarea {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    .privacy p {
+        font-size: 17px;
+    }
+
+    .privacy button {
+        font-size: 19px;
+        width: 47%;
+    }
+}
+
 @media (max-width: 576px) {
-    .call h3{
+    .call h3 {
         font-size: 14px;
     }
-    .call h2{
+
+    .call h2 {
         font-size: 37px;
     }
-    .call p{
+
+    .call p {
         font-size: 10px;
     }
-    ul li a{
+
+    ul li a {
         font-size: 10px;
         padding-right: 5px;
     }
+
+    .Questions h1 {
+        font-size: 27px;
+    }
+
+    .Questions h4 {
+        font-size: 20px;
+    }
+
+    .Questions h4 B {
+        font-size: 25px;
+    }
+
+    .inform p {
+        font-size: 17px;
+    }
+
+    .info input {
+        width: 100px;
+        height: 15px;
+    }
+
+    .info label {
+        font-size: 13px;
+    }
+
+    .name img {
+        width: 150px;
+        transform: rotate(6deg);
+        padding-right: 70px;
+    }
+
+    .inform textarea {
+        width: 75%;
+        font-size: 15px;
+    }
+    .privacy p {
+        font-size: 14px;
+    }
+    .privacy button {
+        font-size: 16px;
+        width: 45%;
+    }
+}
