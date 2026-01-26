@@ -266,6 +266,8 @@ main .posters {
     display: flex;
     padding-left: 30px;
     padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .top h2 {
@@ -295,6 +297,8 @@ main .posters {
     padding-left: 30px;
     border-top: 1px solid rgba(128, 128, 128, 0.336);
     padding-top: 50px;
+     justify-content: space-between;
+    align-items: center;
 }
 
 .bottom h2 {
@@ -333,9 +337,11 @@ main .posters {
     gap: 20px;
     padding-top: 20px;
 }
-.images img{
+
+.images img {
     height: 100px;
 }
+
 .right h2 {
     color: #494949;
     font-size: 25px;
@@ -489,6 +495,9 @@ main .posters {
 .two {
     width: 25%;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sidetwo1 {
@@ -562,6 +571,7 @@ footer {
     background-image: url(ft_bg.png);
     background-size: contain;
     height: 35px;
+    width: 100%;
 }
 
 @media (max-width: 1216px) {
@@ -637,45 +647,146 @@ footer {
         font-size: 16px;
         width: 47%;
     }
-    .right h2{
+
+    .right h2 {
         font-size: 22px;
     }
-    .right p{
+
+    .right p {
         font-size: 15px;
     }
-    .images{
+
+    .images {
         gap: 15px;
         padding-left: 20px;
     }
-    .images img{
+
+    .images img {
         height: 80px;
     }
-    .top h2{
+
+    .top h2 {
         font-size: 23px;
     }
-    .top p{
+
+    .top p {
         font-size: 15px;
     }
-    .pic1{
+
+    .pic1 {
         width: 150px;
     }
-    .bottom h2{
+
+    .bottom h2 {
         font-size: 23px;
     }
-    .bottom p{
+
+    .bottom p {
         font-size: 15px;
     }
-    .pic2{
+
+    .pic2 {
         width: 150px;
     }
-    .left h2{
+
+    .left h2 {
         font-size: 23px;
     }
-    .left h4{
+
+    .left h4 {
         font-size: 16px;
     }
-    .boxex p{
+
+    .boxex p {
         font-size: 15px;
+    }
+
+    .one h2 {
+        font-size: 24px;
+    }
+
+    .top2 p {
+        font-size: 18px;
+    }
+
+    .buttons button {
+        font-size: 13px;
+    }
+
+    .bottom1 h4 {
+        font-size: 21px;
+    }
+
+    .mid h1 {
+        font-size: 25px;
+    }
+
+    .mid p {
+        font-size: 14px;
+    }
+
+    .sidetwo1 h2 {
+        font-size: 24px;
+    }
+
+    .sidetwo1 p {
+        font-size: 17px;
+    }
+
+    .containor {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 40%;
+    }
+
+    .center {
+        width: 50%;
+    }
+    .top{
+        padding-right: 30px;
+    }
+    .top h2{
+        font-size: 25px;
+    }
+    .top p{
+        font-size: 16px;
+    }
+    .pic1{
+        width: 200px;
+    }
+    .bottom{
+        padding-right: 30px;
+    }
+    .bottom h2{
+        font-size: 25px;
+    }
+    .bottom p{
+        font-size: 16px;
+    }
+    .pic2{
+        width: 200px;
+    }
+
+    .right {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .right h2{
+        font-size: 27px;
+    }
+    .right p{
+        font-size: 19px;
+    }
+    .images img{
+        height: 150px;
+    }
+
+    .right .bullets {
+        align-self: center;
     }
 }
 
@@ -762,14 +873,72 @@ footer {
         font-size: 27px;
         width: 48%;
     }
-    .left{
-        width: 50%;
+    /* container */
+    .left h2{
+        font-size: 22px;
     }
-    .center{
-        width: 60%;
+    .left h4{
+        font-size: 16px;
     }
-    .right{
+    .boxex p{
+        font-size: 14px;
+    }
+    .notpad{
+        width: 150px;
+    }   
+    .top h2 {
+        font-size: 22px;
+    }
+    .top p {
+        font-size: 14px;
+    }
+    .bottom h2 {
+        font-size: 22px;
+    }
+    .bottom p {
+        font-size: 14px;
+    }
+    .right h2 {
+        font-size: 24px;
+    }
+    .images img{
+        height: 120px;
+    }
+    .right p {
+        font-size: 16px;
+    }
+    .section1 {
+        flex-wrap: wrap;
+    }
+    .one {
+        width: 30%;
+    }
+    .one h2 {
+        font-size: 23px;
+    }
+    .mid {
+        width: 64%;
+    }
+    .two {
+        width: 88%;
+    }
+    .boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+    }
+    .sidetwo1 h2 {
+        font-size: 22px;
+    }
+    .sidetwo1 p {
+        font-size: 15px;
+    }
+    .sidetwo2 {
+        flex-direction: row;
+    }
+    .sidetwo3 {
+        width: 40%;
     }
 }
 
@@ -861,6 +1030,85 @@ footer {
         font-size: 22px;
         width: 48%;
     }
+    .containor {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left {
+        width: 77%;
+        justify-content: start;
+        margin: 30px;
+    }
+    .notpad{
+        width: 150px;
+    }
+    .left .bullets {
+        align-self: center;
+    }
+    .left h2{
+        align-self: left;
+    }
+    .left h4{
+        align-self: left;
+    }
+    .center {
+        width: 90%;
+        border-left: none;
+        border-right: none;
+        margin: 30px 0;
+    }
+    .right {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .images img{
+        height: 150px;
+    }
+    .section1 {
+        flex-wrap: wrap;
+    }
+
+    .one {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .mid{
+         width: 90%;
+        align-items: center;
+        padding: 0 15vw 5vw 15vw;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+    }
+    .two{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidetwo2 {
+        flex-direction: column;
+    }
+
+    .sidetwo3 {
+        width: 30%;
+    }
+    .sidetwo3 h2{
+        font-size: 21px;
+    }
+
+
 }
 
 @media (max-width: 684px) {
@@ -907,6 +1155,22 @@ footer {
     .privacy button {
         font-size: 19px;
         width: 47%;
+    }
+
+    .mid h1 {
+        font-size: 23px;
+    }
+
+    .mid p {
+        font-size: 12px;
+    }
+
+    .sidetwo1 h2 {
+        font-size: 20px;
+    }
+
+    .sidetwo1 p {
+        font-size: 13px;
     }
 }
 
@@ -963,9 +1227,11 @@ footer {
         width: 75%;
         font-size: 15px;
     }
+
     .privacy p {
         font-size: 14px;
     }
+
     .privacy button {
         font-size: 16px;
         width: 45%;
